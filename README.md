@@ -7,3 +7,5 @@ function myFunction() {
   alert("Thanks!!! :)");
 }
 </script>
+
+# https://docs.github.com/en/pages/quickstart
