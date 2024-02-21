@@ -1,9 +1,7 @@
 # JeNetwork.github.io
 Tool for render video by FFmpeg
 <textarea id="tbx1" style="width:300px; height:60px;">33,34,38,40,46,49,51,57,59,63,64,68,72,74,78,87,86,89,90,94</textarea>
-<br/>
 <input type="button" value="Click Me!" onclick="Loto();" style="width:100px; height:40px; font-size:14pt;"/>
-<br/>
 <textarea id="tbx2" style="width:300px; height:500px;"></textarea>
 
 <script language="JavaScript" type="text/javascript">
