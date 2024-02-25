@@ -8,12 +8,10 @@ Tool for render video by FFmpeg
 function Loto()
 {
   var string = document.getElementById("tbx1").value;
-  var array = string.split(',').map(function(n) {
-    return Number(n);
-  });
+  //var array = string.split(',').map(function(n) {return Number(n);});
+  var array = string.split(',');
   var sb="";
-  for(let i=0; i<array.length; i++) {	sb+="0"+array[i]+",1"+array[i]+",2"+array[i]+",3"+array[i]+",4"+array[i]+",5"+array[i]+",6"+array[i]+",7"+array[i]+",8"+array[i]+",9"+array[i]+",";
-                                    }
+  for(let i=0; i<array.length; i++) {	sb+="0"+array[i]+",1"+array[i]+",2"+array[i]+",3"+array[i]+",4"+array[i]+",5"+array[i]+",6"+array[i]+",7"+array[i]+",8"+array[i]+",9"+array[i]+","; }
   var n1 = array.length * 230;
   document.getElementById("tbx2").value = sb;
   document.getElementById("lb1").innerHTML = array.length + " x 230 = " + n1.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
