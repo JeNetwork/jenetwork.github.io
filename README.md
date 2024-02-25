@@ -16,7 +16,7 @@ function Loto()
                                     }
   var n1 = array.length * 230;
   document.getElementById("tbx2").value = sb;
-  document.getElementById("lb1").innerHTML = array.length + " x 230 = " + n1.replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
+  document.getElementById("lb1").innerHTML = array.length + " x 230 = " + n1 + "K";
   navigator.clipboard.writeText(sb); // Copy to Clipboard
 }
 </script>
