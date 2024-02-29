@@ -24,10 +24,10 @@ function Loto()
   document.getElementById("tbx2").value = sb;
   document.getElementById("lb1").innerHTML = array.length + " x 230 = " + n1s;
   document.getElementById("lb2").innerHTML = array.length + " x 170 = " + n2s;
-  document.getElementById("lb6").innerHTML = n2 + " x 3 = " + d3.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K + " + n1s + " = " + (n1+d3).toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
-  document.getElementById("lb3").innerHTML = n2 + " x 4 = " + d4.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K + " + n1s + " = " + (n1+d4).toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
-  document.getElementById("lb4").innerHTML = n2 + " x 5 = " + d5.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K + " + n1s + " = " + (n1+d5).toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
-  document.getElementById("lb5").innerHTML = n2 + " x 6 = " + d6.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K + " + n1s + " = " + (n1+d6).toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
+  document.getElementById("lb6").innerHTML = n2s + " x 3 = " + d3.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K + " + n1s + " = " + (n1+d3).toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
+  document.getElementById("lb3").innerHTML = n2s + " x 4 = " + d4.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K + " + n1s + " = " + (n1+d4).toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
+  document.getElementById("lb4").innerHTML = n2s + " x 5 = " + d5.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K + " + n1s + " = " + (n1+d5).toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
+  document.getElementById("lb5").innerHTML = n2s + " x 6 = " + d6.toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K + " + n1s + " = " + (n1+d6).toString().replace(/\B(?=(\d{3})+\b)/g, ",") + "K";
   navigator.clipboard.writeText(sb); // Copy to Clipboard
 }
 </script>
